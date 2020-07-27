@@ -21,6 +21,8 @@ body{
 }
 a{
     text-decoration: none;
+    color: #222;
+    font-family: arial,sans-serif;
 }
 a:hover{
     text-decoration: underline;
@@ -72,7 +74,6 @@ a:hover{
 #searchform{
     margin-top: 0px;
     text-align: center;
-    
 }
 #search{
     background: url(images/search-ic.png) no-repeat scroll 15px 7px;
@@ -80,11 +81,66 @@ a:hover{
     padding-left:45px;
     align-content: center;
     border-radius: 50px;
-    height: 42px;
+    height: 40px;
     border: 1px solid #D3D3D3;
     font: 16px arial,sans-serif;
+    font-weight: lighter;
 }
 #search:hover{
     box-shadow: 0 0 0 2px #F4F4F4;
     transition: all 100ms ease-out;
 }
+#buttons-container{
+    display: flex;
+    padding-top: 36px;
+    justify-content: center;
+}
+#middle-buttons button{
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    width: 134px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+#middle-buttons button:hover{
+    box-shadow: 0 0 0 2px #F4F4F4;
+    transition: all 100ms ease-out;
+}
+#middle-buttons button:active{
+    border-color:  #4285f4;
+}
+#footer{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #f2f2f2;
+
+}
+#footer .left-footer{
+    padding-top: 12px;
+    float: left;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+#footer .right-footer{
+    padding-top: 12px;
+    float: right;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+#footer a {
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 50;
+}
+

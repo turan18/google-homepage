@@ -89,6 +89,10 @@ a:hover{
     box-shadow: 0 0 0 2px #F4F4F4;
     transition: all 100ms ease-out;
 }
+input:focus{
+    outline: none;
+}
+
 #buttons-container{
     display: flex;
     padding-top: 36px;

@@ -22,3 +22,69 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
+.right-links{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    margin: 0 25px 0 0;
+    align-items: center;
+}
+.right-links a{
+    padding-right: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+.right-links img{
+    width: 20px;
+    height: 20px;
+}
+.right-links .sign-in{
+    height: 30px;
+    width: 70px;
+    color: white;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    outline: none;
+    background: #4285f4;
+    font-size: 13px;
+}
+.sign-in:active{
+    background-color: rgb(50, 120, 255);
+}
+#main{
+    display: block;
+    margin: 0 auto;
+}
+#logo{
+    height: 182px;
+    margin-top: 89px;
+}
+#logo img{
+        margin: 10px auto 20px;
+        display: block;
+        padding-top: 65px;
+}
+#searchform{
+    margin-top: 0px;
+    text-align: center;
+    
+}
+#search{
+    background: url(search-ic.png) no-repeat scroll 15px 7px;
+    background-position-y: center;
+    padding-left:45px;
+    align-content: center;
+    border-radius: 50px;
+    height: 42px;
+    border: 1px solid #D3D3D3;
+    font: 16px arial,sans-serif;
+}
+#search:hover{
+    box-shadow: 0 0 0 2px #F4F4F4;
+    transition: all 100ms ease-out;
+}

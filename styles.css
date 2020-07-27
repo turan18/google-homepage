@@ -75,7 +75,7 @@ a:hover{
     
 }
 #search{
-    background: url(search-ic.png) no-repeat scroll 15px 7px;
+    background: url(images/search-ic.png) no-repeat scroll 15px 7px;
     background-position-y: center;
     padding-left:45px;
     align-content: center;
